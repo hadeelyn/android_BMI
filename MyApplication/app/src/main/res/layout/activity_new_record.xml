@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".newRecord">
+    <LinearLayout
+        android:id="@+id/laoyout_back"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="#2196F3"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="BMI Analyzer"
+            android:textColor="@color/white"
+            android:textSize="25sp"></TextView>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/layout_logo"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:layout_below="@id/laoyout_back"
+        android:orientation="vertical"
+        android:paddingTop="50dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="80dp"
+            android:fontFamily="sans-serif"
+            android:text="New Record"
+            android:textColor="#2196F3"
+            android:textSize="35dp"
+            android:textStyle="">
+
+        </TextView>
+
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/layout_weight"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:layout_below="@id/layout_logo"
+        android:orientation="horizontal"
+        android:paddingLeft="20dp"
+
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingRight="70dp"
+            android:text="Weight"
+            android:textColor="#2196F3"
+            android:textSize="20dp"></TextView>
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="41dp"
+            android:layout_height="37dp"
+            android:backgroundTint="#FAF8F8"
+            android:text="-"
+
+            android:textColor="#2196F3" />
+
+        <EditText
+            android:id="@+id/editTextTextPersonName"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:ems="10"
+
+            android:inputType="textPersonName" />
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="41dp"
+            android:layout_height="37dp"
+            android:backgroundTint="#FAF8F8"
+            android:text="+"
+
+            android:textColor="#2196F3" />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:text=" kg" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/layout_length"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:layout_below="@id/layout_weight"
+        android:orientation="horizontal"
+        android:paddingLeft="20dp"
+
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingRight="70dp"
+            android:text="Length"
+            android:textColor="#2196F3"
+            android:textSize="20dp"></TextView>
+
+        <Button
+            android:id="@+id/button3"
+            android:layout_width="41dp"
+            android:layout_height="37dp"
+            android:backgroundTint="#FAF8F8"
+            android:text="-"
+            android:textSize="20dp"
+            android:textColor="#2196F3" />
+
+        <EditText
+            android:id="@+id/editTextTextPersonName2"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:ems="10"
+
+            android:inputType="textPersonName" />
+
+        <Button
+            android:id="@+id/button4"
+            android:layout_width="41dp"
+            android:layout_height="37dp"
+            android:backgroundTint="#FAF8F8"
+            android:text="+"
+
+            android:textColor="#2196F3" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:text=" cm" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_below="@id/layout_length"
+        android:orientation="horizontal"
+        android:paddingLeft="20dp"
+
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingRight="70dp"
+            android:text="Date"
+            android:textColor="#2196F3"
+            android:textSize="20dp"></TextView>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <EditText
+            android:id="@+id/editTextTextPersonName3"
+            android:layout_width="170dp"
+            android:layout_height="wrap_content"
+
+            android:ems="10"
+            android:inputType="textPersonName" />
+
+    </LinearLayout>
+
+
+    <Button
+        android:layout_width="350dp"
+        android:layout_height="60dp"
+        android:layout_below="@id/layout_length"
+        android:layout_marginLeft="22dp"
+        android:layout_marginTop="132dp"
+        android:backgroundTint="#2196F3"
+        android:text="Save Data"
+        android:textAllCaps="false"
+        android:textSize="25dp"></Button>
+</RelativeLayout>

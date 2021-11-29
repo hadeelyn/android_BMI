@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".register">
+
+
+
+    <LinearLayout
+        android:id="@+id/laoyout_back"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="#2196F3"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="BMI Analyzer"
+            android:textColor="@color/white"
+            android:textSize="25sp"></TextView>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/layout_logo"
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:layout_below="@id/laoyout_back"
+        android:orientation="vertical"
+        android:paddingTop="80dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="70dp"
+            android:fontFamily="sans-serif"
+            android:text="Create New Account"
+            android:textColor="#2196F3"
+            android:textSize="30dp">
+
+        </TextView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50dp"
+            android:text="If you don't already have an account"
+            android:textSize="20dp">
+
+        </TextView>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/layout_logo"
+        android:orientation="vertical"
+        android:paddingLeft="20dp"
+
+        >
+
+        <EditText
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:hint="Name"
+            android:hintTextColor="#78909C"
+
+            android:textSize="20sp"></EditText>
+        <EditText
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:hint="E_mail"
+            android:hintTextColor="#78909C"
+
+            android:textSize="20sp"></EditText>
+        <EditText
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:drawableRight="@drawable/ic_hide"
+            android:hint="Password"
+            android:textSize="20sp"></EditText>
+        <EditText
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:hint="re_Password"
+            android:textSize="20sp"
+></EditText>
+        <Button
+            android:layout_width="350dp"
+            android:layout_height="60dp"
+            android:layout_marginTop="80dp"
+            android:backgroundTint="#2196F3"
+            android:text="CREATE"
+
+            android:textAllCaps="false"
+            android:textSize="25dp"></Button>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_below="@id/layout_logo"
+            android:orientation="horizontal"
+            android:paddingLeft="20dp">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="you have an account?"
+                android:textSize="20dp"
+                android:gravity="center"
+                android:paddingTop="30dp"
+
+                >
+
+            </TextView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="  Login"
+                android:textColor="#2196F3"
+
+                android:textSize="20dp"></TextView>
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+</RelativeLayout>
