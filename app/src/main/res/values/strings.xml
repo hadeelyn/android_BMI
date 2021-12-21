@@ -1,0 +1,34 @@
+<resources>
+    <string name="BMI_Analyzer">BMI Analyser</string>
+    <string name="user_name">Username</string>
+    <string name="login">login</string>
+    <string name="create">CREATE</string>
+    <string name="add_record">Add record</string>
+    <string name="view_food">View food</string>
+    <string name="status">status</string>
+    <string name="logout">logout</string>
+    <string name="add_food">Add food</string>
+    <string name="current_status">current_status</string>
+    <string name="old_status">old_status</string>
+    <string name="hi"> hi,</string>
+        <string name="name">Name</string>
+    <string name="email">E_mail</string>
+        <string name="password">Password</string>
+    <string name="re_password">re_Password</string>
+        <string name="edit_button">Edit</string>
+        <string name="sign">Sign Up</string>
+
+    <string name="salmon">salmon</string>
+    <string name="fish">fish</string>
+    <string name="rice">rice</string>
+    <string name="carbohydrate">carbohydrate</string>
+    <string name="banana">banana</string>
+    <string name="fruit">fruit</string>
+    <string name="apple">apple</string>
+    <string name="orange">orange</string>
+    <string name="calories_cal_g">calories_cal_g</string>
+
+
+        <string name="next">next</string>
+
+</resources>
