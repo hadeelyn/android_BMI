@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "494085786850",
+    "firebase_url": "https://bmihadeel-default-rtdb.firebaseio.com",
+    "project_id": "bmihadeel",
+    "storage_bucket": "bmihadeel.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:494085786850:android:10de278db494bbe8d262bb",
+        "android_client_info": {
+          "package_name": "com.hadeelNQ.myapplication"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "494085786850-bphbdlkdb56t4dp1nmpr79ct3hq8vsg8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCykFj7doGak8WcEKBG0DyMHjOi7bvuuSQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "494085786850-bphbdlkdb56t4dp1nmpr79ct3hq8vsg8.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
